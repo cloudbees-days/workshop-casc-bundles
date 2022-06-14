@@ -77,7 +77,7 @@ jenkins:
   - envVars:
       env:
       - key: "ENVIRONMENT_PREFIX"
-        value: "staging-"
+        value: ""
   markupFormatter:
     rawHtml:
       disableSyntaxHighlighting: false
@@ -128,7 +128,7 @@ unclassified:
               repoOwner: "cloudbees-days"
               repository: "pipeline-library"
   headerLabel:
-    text: "ops controller staging"
+    text: "ops controller"
   hibernationConfiguration:
     enabled: false
   pollSCM:
