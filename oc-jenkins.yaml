@@ -1,3 +1,14 @@
+credentials:
+  system:
+    domainCredentials:
+    - credentials:
+      - gitHubApp:
+          apiUri: "https://api.github.com"
+          appID: "125049"
+          description: "CloudBees CI CasC Workshop GitHub App base credential"
+          id: "cloudbees-ci-casc-workshop-github-app"
+          owner: "cloudbees-days"
+          privateKey: "${cbciCascWorkshopGitHubAppPrivateKey}"
 unclassified:
   bundleStorageService:
     activated: true
