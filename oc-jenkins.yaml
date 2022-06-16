@@ -1,0 +1,28 @@
+unclassified:
+  bundleStorageService:
+    activated: true
+    bundles:
+    - name: "scm-bundles"
+      retriever:
+        SCM:
+          defaultVersion: "main"
+          scmSource:
+            github:
+              configuredByUrl: true
+              credentialsId: "cloudbees-ci-casc-workshop-github-app"
+              id: "workshop-casc-bundles"
+              repoOwner: "cloudbees-days"
+              repository: "workshop-casc-bundles"
+              repositoryUrl: "https://github.com/cloudbees-days/workshop-casc-bundles.git"
+              traits:
+              - gitHubBranchDiscovery:
+                  strategyId: 1
+              - gitHubPullRequestDiscovery:
+                  strategyId: 1
+              - gitHubForkDiscovery:
+                  strategyId: 1
+                  trust: "gitHubTrustPermissions"
+    pollingPeriod: 9999
+  cascAutoControllerProvisioning:
+    provisionControllerOnCreation: true 
+    initialDelay: 10
