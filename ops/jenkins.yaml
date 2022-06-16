@@ -72,6 +72,13 @@ credentials:
           description: "CloudBees CI Kubernetes Workshop GitHub App base credential"
           id: "cloudbees-ci-kubernetes-workshop-github-app"
           privateKey: "${cbciKubernetesWorkshopGitHubAppPrivateKey}"
+      - gitHubApp:
+          apiUri: "https://api.github.com"
+          appID: "135904"
+          description: "cbci-casc-workshop Staging CloudBees CI CasC Workshop GitHub App credential"
+          id: "cbci-casc-workshop-staging-cloudbees-ci-casc-workshop-github-app"
+          owner: "cbci-casc-workshop"
+          privateKey: "${staging-cbciCascWorkshopGitHubAppPrivateKey}"
 jenkins:
   globalNodeProperties:
   - envVars:
