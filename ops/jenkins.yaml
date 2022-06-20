@@ -90,7 +90,7 @@ jenkins:
       disableSyntaxHighlighting: false
   numExecutors: 0
   quietPeriod: 0
-  systemMessage: "Jenkins configured using CloudBees CI CasC v2"
+  systemMessage: "Jenkins configured using CloudBees CI CasC v3"
 notificationConfiguration:
   enabled: true
   router: "operationsCenter"
@@ -135,7 +135,7 @@ unclassified:
               repoOwner: "cloudbees-days"
               repository: "pipeline-library"
   headerLabel:
-    text: "ops controller v2"
+    text: "ops controller v3"
   hibernationConfiguration:
     enabled: false
   pollSCM:
