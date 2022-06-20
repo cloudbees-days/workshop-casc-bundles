@@ -22,7 +22,7 @@ items:
         - headWildcardFilter:
             excludes: ''
             includes: main
-        repoOwner: ops-controller
+        repoOwner: cbci-casc-workshop
         credentialsId: cloudbees-ci-casc-workshop-github-app
     projectFactories:
     - customMultiBranchProjectFactory:
@@ -37,7 +37,7 @@ items:
                     userRemoteConfigs:
                     - userRemoteConfig:
                         credentialsId: cloudbees-ci-casc-workshop-github-app
-                        url: https://github.com/ops-controller/ops-controller.git
+                        url: https://github.com/cbci-casc-workshop/ops-controller.git
                     branches:
                     - branchSpec:
                         name: '*/main'
