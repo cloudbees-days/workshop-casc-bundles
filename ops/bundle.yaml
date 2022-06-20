@@ -3,6 +3,7 @@ id: "1-ops"
 description: "Workshop Ops Managed Controller Config Bundle"
 version: "2"
 parent: "base"
+jcascMergeStrategy: "override"
 availabilityPattern: "operations/ops"
 jcasc:
   - "jenkins.yaml"
