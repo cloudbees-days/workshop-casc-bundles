@@ -4,12 +4,6 @@ removeStrategy:
 items:
 - kind: folder
   name: controller-jobs
-  properties:
-  - itemRestrictions:
-      allowedTypes:
-      - jenkins.branch.OrganizationFolder
-      - org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject
-      filter: true
   items:
     - kind: organizationFolder
       name: controller-casc-update
