@@ -13,7 +13,7 @@ items:
   items:
     - kind: organizationFolder
       name: controller-provisioning
-      disabled: true
+      disabled: false
       orphanedItemStrategy:
         defaultOrphanedItemStrategy:
           pruneDeadBranches: true
