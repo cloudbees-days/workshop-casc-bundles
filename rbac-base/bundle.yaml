@@ -1,0 +1,7 @@
+apiVersion: "1"
+id: "rbac-base"
+version: "1"
+description: "Workshop RBAC Parent Configuration Bundle"
+jcascMergeStrategy: "override"
+rbac:
+- "rbac.yaml"
