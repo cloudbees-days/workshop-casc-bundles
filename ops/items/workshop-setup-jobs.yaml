@@ -3,6 +3,25 @@ removeStrategy:
   items: NONE
 items:
 - kind: pipeline
+  name: cross-team-collab-publish-event
+  concurrentBuild: false
+  resumeBlocked: false
+  description: ''
+  definition:
+    cpsScmFlowDefinition:
+      scriptPath: Jenkinsfile
+      scm:
+        gitSCM:
+          userRemoteConfigs:
+          - userRemoteConfig:
+              credentialsId: field-workshops-github-app
+              url: https://github.com/cloudbees-days/cross-team-collab-publish-pipeline.git
+          branches:
+          - branchSpec:
+              name: '*/main'
+      lightweight: true
+  disabled: false
+- kind: pipeline
   name: casc-workshop-provision-controller
   concurrentBuild: true
   resumeBlocked: false
