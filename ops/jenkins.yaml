@@ -129,7 +129,7 @@ unclassified:
   gitHubPluginConfig:
     hookSecretConfigs:
     - credentialsId: "github-webhook-secret"
-    hookUrl: "https://staging-cbci.workshop.cb-sa.io/operations-ops/github-webhook/"
+    hookUrl: "https://cbci.workshop.cb-sa.io/operations-ops/github-webhook/"
   globallibraries:
     libraries:
     - defaultVersion: "main"
