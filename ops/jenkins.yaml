@@ -149,3 +149,6 @@ unclassified:
     pollingThreadCount: 10
   usageStatisticsCloudBees:
     usageStatisticsCollected: false
+notificationConfiguration:
+  enabled: true
+  router: "operationsCenter"
