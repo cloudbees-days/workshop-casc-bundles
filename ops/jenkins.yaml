@@ -24,6 +24,10 @@ credentials:
           description: "CasC Workshop Controller CasC Bundle Update Secret"
           id: "casc-update-secret"
           secret: "${cbciCascWorkshopControllerProvisionSecret}"
+      - string:
+          description: "GitHub PAT for beedemo-dev"
+          id: "beedemo-dev-github-pat"
+          secret: "${beedemoDevGithubPat}"
       - gitHubApp:
           apiUri: "https://api.github.com"
           appID: "77731"
