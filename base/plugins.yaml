@@ -1,4 +1,8 @@
 plugins:
+- id: analysis-model-api
+- id: antisamy-markup-formatter
+- id: bootstrap4-api
+- id: checks-api
 - id: antisamy-markup-formatter
 - id: cloudbees-casc-client
 - id: cloudbees-casc-items-api
@@ -15,8 +19,13 @@ plugins:
 - id: cloudbees-workflow-template
 - id: cloudbees-workflow-ui
 - id: configuration-as-code
+- id: data-tables-api
+- id: echarts-api
+- id: font-awesome-api
+- id: forensics-api
 - id: git
 - id: github-branch-source
+- id: jacoco
 - id: managed-master-hibernation
 - id: notification-api
 - id: operations-center-cloud
