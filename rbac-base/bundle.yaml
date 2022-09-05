@@ -3,6 +3,7 @@ id: "rbac-base"
 version: "1"
 description: "Workshop RBAC Parent Configuration Bundle"
 parent: "base"
+availabilityPattern: ".*"
 jcascMergeStrategy: "override"
 rbac:
 - "rbac.yaml"
