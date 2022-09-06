@@ -25,8 +25,11 @@ roles:
   permissions:
   - hudson.model.Item.Read
   - hudson.model.Item.Create
-  - hudson.model.Item.Configure
   - hudson.model.Item.Build
+- name: job-configure
+  filterable: 'true'
+  permissions:
+  - hudson.model.Item.Configure
 groups:
 - name: Administrators
   members:
