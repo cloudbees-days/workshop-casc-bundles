@@ -30,7 +30,6 @@ roles:
   filterable: 'true'
   permissions:
   - hudson.model.Item.Configure
-  - hudson.model.Hudson.Administer
 groups:
 - name: Administrators
   members:
