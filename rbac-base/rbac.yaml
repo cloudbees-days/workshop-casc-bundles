@@ -31,7 +31,7 @@ roles:
   permissions:
   - hudson.model.Item.Configure
 groups:
-- name: Controller Administrators
+- name: controller-adminis
   members:
     users:
     - admin
@@ -39,7 +39,7 @@ groups:
   roles:
   - name: administrator
     grantedAt: current
-- name: Controller Managers
+- name: controller-managers
   members:
     users:
     - "${manager-user}"
