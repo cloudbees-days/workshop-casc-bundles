@@ -88,7 +88,7 @@ credentials:
           appID: "234437"
           description: "CloudBees CI Previews Demo GitHub App base credential"
           id: "cloudbees-ci-previews-demo-github-app"
-          privateKey: "${cbciPreviewsDemoGitHubAppPrivateKeyy}"
+          privateKey: "${cbciPreviewsDemoGitHubAppPrivateKey}"
 jenkins:
   globalNodeProperties:
   - envVars:
