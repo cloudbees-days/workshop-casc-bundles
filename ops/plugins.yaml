@@ -19,6 +19,7 @@ plugins:
 - id: github-branch-source
 - id: managed-master-hibernation
 - id: notification-api
+- id: operations-center-client
 - id: operations-center-cloud
 - id: operations-center-notification
 - id: pipeline-event-step
