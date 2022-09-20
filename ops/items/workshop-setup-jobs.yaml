@@ -241,3 +241,29 @@ items:
           condition:
             jmespathQuery:
               query: action=='created' && installation.app_slug=='cloudbees-ci-previews-demo'
+- kind: pipeline
+  concurrentBuild: true
+  resumeBlocked: false
+  name: provision-cbfm-workshop
+  description: 'Provisions a controller and repos for a CBCI Previews Demo'
+  definition:
+    cpsScmFlowDefinition:
+      scriptPath: provision-feature-flag-workshop
+      scm:
+        gitSCM:
+          userRemoteConfigs:
+          - userRemoteConfig:
+              credentialsId: field-workshops-github-app
+              url: https://github.com/cloudbees-days/ops-workshop-setup.git
+          branches:
+          - branchSpec:
+              name: '*/main'
+      lightweight: true
+  disabled: false
+  properties:
+  - pipelineTriggers:
+      triggers:
+      - eventTrigger:
+          condition:
+            jmespathQuery:
+              query: action=='created' && installation.app_slug=='cloudbees-feature-management-ws'
