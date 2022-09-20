@@ -244,7 +244,7 @@ items:
 - kind: pipeline
   concurrentBuild: true
   resumeBlocked: false
-  name: provision-cbfm-workshop
+  name: cbfm-workshop-setup
   description: 'Provisions a controller and repos for a CBCI Previews Demo'
   definition:
     cpsScmFlowDefinition:
