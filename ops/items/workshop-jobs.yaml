@@ -1,0 +1,32 @@
+removeStrategy:
+  rbac: SYNC
+  items: NONE
+items:
+- kind: folder
+  name: workshop-jobs
+  properties:
+  - itemRestrictions:
+      allowedTypes:
+      - org.jenkinsci.plugins.workflow.job.WorkflowJob
+      - jenkins.branch.OrganizationFolder
+      - org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject
+      filter: true
+  items:
+  - kind: pipeline
+    name: cross-team-collab-publish-event
+    concurrentBuild: false
+    resumeBlocked: false
+    definition:
+      cpsScmFlowDefinition:
+        scriptPath: Jenkinsfile
+        scm:
+          gitSCM:
+            userRemoteConfigs:
+            - userRemoteConfig:
+                credentialsId: field-workshops-github-app
+                url: https://github.com/cloudbees-days/cross-team-collab-publish-pipeline.git
+            branches:
+            - branchSpec:
+                name: '*/main'
+        lightweight: true
+    disabled: false
