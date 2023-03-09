@@ -161,4 +161,4 @@ unclassified:
     usageStatisticsCollected: false
 notificationConfiguration:
   enabled: true
-  router: "operationsCenter"
+  router: "operationssCenter"
