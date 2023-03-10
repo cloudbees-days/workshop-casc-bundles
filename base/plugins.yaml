@@ -1,7 +1,6 @@
 plugins:
 - id: analysis-model-api
 - id: antisamy-markup-formatter
-- id: bootstrap4-api
 - id: checks-api
 - id: antisamy-markup-formatter
 - id: cloudbees-casc-client
