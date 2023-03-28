@@ -1,5 +1,4 @@
 jenkins:
-  authorizationStrategy: "cloudBeesRoleBasedAccessControl"
   markupFormatter:
     rawHtml:
       disableSyntaxHighlighting: false
