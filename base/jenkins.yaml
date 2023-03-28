@@ -1,4 +1,4 @@
-jenkinss:
+jenkins:
   authorizationStrategy: "cloudBeesRoleBasedAccessControl"
   markupFormatter:
     rawHtml:
