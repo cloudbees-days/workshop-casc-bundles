@@ -1,5 +1,5 @@
-apiVersion: "1"
 id: "base"
+apiVersion: "1"
 version: "1"
 description: "Workshop Parent Configuration Bundle"
 availabilityPattern: ".*"

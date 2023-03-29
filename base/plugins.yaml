@@ -3,7 +3,6 @@ plugins:
 - id: antisamy-markup-formatter
 - id: checks-api
 - id: antisamy-markup-formatter
-- id: bootstrap4-api
 - id: cloudbees-casc-client
 - id: cloudbees-casc-items-api
 - id: cloudbees-casc-items-commons
