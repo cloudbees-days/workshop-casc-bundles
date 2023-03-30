@@ -2,7 +2,7 @@ removeStrategy:
   rbac: SYNC
 roles:
 - name: authenticated
-  filterable: 'true'
+    filterable: 'true'
   permissions:
   - hudson.model.Hudson.Read
   - hudson.model.Item.Read
