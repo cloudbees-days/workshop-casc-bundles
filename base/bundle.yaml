@@ -1,5 +1,5 @@
 id: "base"
-apiVersion: "1"
+apiVersion: "2"
 version: "1"
 description: "Workshop Parent Configuration Bundle"
 availabilityPattern: ".*"
@@ -8,5 +8,3 @@ jcasc:
 - "jenkins.yaml"
 plugins:
 - "plugins.yaml"
-catalog:
-- "plugin-catalog.yaml"
