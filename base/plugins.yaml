@@ -35,3 +35,5 @@ plugins:
 - id: warnings-ng
 - id: workflow-aggregator
 - id: workflow-cps-checkpoint
+- id: theme-manager
+- id: cloudbees-pipeline-explorer
