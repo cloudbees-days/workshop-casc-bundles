@@ -14,7 +14,6 @@ roles:
     filterable: 'true'
     permissions:
       - hudson.model.Hudson.Read
-      - hudson.model.Hudson.Manage
       - com.cloudbees.plugins.credentials.CredentialsProvider.View
       - com.cloudbees.pipeline.governance.templates.catalog.TemplateCatalogAction.ViewCatalogs
       - com.cloudbees.jenkins.plugin.metrics.views.Alerter.View
