@@ -5,8 +5,7 @@ jenkins:
   numExecutors: 0
   projectNamingStrategy:
     pattern:
-      description: "All project (job) names must be alphanumeric, lower case, may contain dashes/underscores and contain\
-        \ no spaces with a limit of 50 characters and a minimum of 3 characters."
+      description: "All project (job) names must be alphanumeric, lower case, may contain dashes/underscores
       forceExistingJobs: false
       namePattern: "^[a-z0-9-_]{3,50}$"
   quietPeriod: 0
